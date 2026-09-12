@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:dimension": {
+        "description": {
+            "identifier": "kingofall:pocket_boss_dimension"
+        },
+        "components": {
+            "minecraft:dimension_bounds": {
+                "min": [ -64, -64, -64 ],
+                "max": [ 64, 64, 64 ]
+            },
+            "minecraft:portal_mechanic": {
+                "portal_block": "minecraft:water",
+                "light_with_item": "minecraft:water_bucket",
+                "destination_dimension": "kingofall:pocket_boss_dimension"
+            },
+            "minecraft:custom_features": {
+                "spawn_boss": "kingofall:pocket_boss",
+                "can_teleport_anywhere": true,
+                "is_private_world": true,
+                "allow_other_players": false
+            },
+            "minecraft:loot_generation": {
+                "summon_on_boss_death": "kingofall:legendary_loot_chest",
+                "chest_contents": [
+                    "minecraft:ender_dragon_egg",
+                    "kingofall:ender_dragon_armor",
+                    "kingofall:powerful_pocket_sword",
+                    "kingofall:custom_portal_stone",
+                    "minecraft:netherite_block"
+                ]
+            }
+        }
+    }
+}
