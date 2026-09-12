@@ -1,0 +1,25 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "kingofall:backpack_recipe"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "LLL",
+            "LCL",
+            "LLL"
+        ],
+        "key": {
+            "L": {
+                "item": "minecraft:leather"
+            },
+            "C": {
+                "item": "minecraft:chest"
+            }
+        },
+        "result": {
+            "item": "kingofall:advanced_backpack"
+        }
+    }
+}
