@@ -1,0 +1,24 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "kingofall:advanced_backpack",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "kingofall_backpack"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:container": {
+                "container_type": "inventory",
+                "open_sound": "armor.equip_leather",
+                "close_sound": "armor.equip_leather",
+                "inventory_size": 150,
+                "restrict_to_owner": false
+            }
+        }
+    }
+}
