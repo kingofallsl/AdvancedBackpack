@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Kingofall's Advanced Survival Backpack & Private Pocket Dimension Pack",
+        "name": "Advanced Survival BP",
+        "uuid": "4f1a2b3c-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+        "version":,
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": "Behavior Pack Module for Kingofall Addon",
+            "type": "data",
+            "uuid": "5a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5e",
+            "version": [1, 0, 0]
+        }
+    ]
+}
