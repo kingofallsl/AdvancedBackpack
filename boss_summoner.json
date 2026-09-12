@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "kingofall:pocket_portal_bundle",
+            "menu_category": {
+                "category": "equipment"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "portal_bundle"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:entity_placer": {
+                "entity": "kingofall:pocket_boss",
+                "use_on": [ "minecraft:water", "minecraft:stone" ]
+            }
+        }
+    }
+}
